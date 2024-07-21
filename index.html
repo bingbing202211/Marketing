@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #fff;
+            height: 100vh;
+            position: fixed;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            padding-top: 20px;
+        }
+        .sidebar a {
+            display: block;
+            padding: 15px 25px;
+            color: #333;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background-color: #f0f0f0;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header div {
+            display: flex;
+            align-items: center;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            width: calc(33.333% - 20px);
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .card img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 10px;
+        }
+        .card h3 {
+            font-size: 1.1em;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <a href="#">AI + 对话</a>
+        <a href="#">AI + 顾问</a>
+        <a href="#">抖音文章</a>
+        <a href="#">文章写作</a>
+        <a href="#">小说仿写</a>
+        <a href="#">搜软文网</a>
+        <a href="#">批量创作</a>
+        <a href="#">会员充值</a>
+        <a href="#">记录</a>
+    </div>
+
+    <div class="content">
+        <div class="header">
+            <h1>创作灵感</h1>
+            <div>
+                <span>剩余100%</span>
+                <button>去充值</button>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <img src="path/to/icon1.png" alt="icon1">
+                <h3>主题介绍类文案</h3>
+            </div>
+            <div class="card">
+                <img src="path/to/icon2.png" alt="icon2">
+                <h3>营销推广类文案</h3>
+            </div>
+            <div class="card">
+                <img src="path/to/icon3.png" alt="icon3">
+                <h3>拍摄剧本类文案</h3>
+            </div>
+            <div class="card">
+                <img src="path/to/icon4.png" alt="icon4">
+                <h3>直播脚本类文案</h3>
+            </div>
+            <div class="card">
+                <img src="path/to/icon5.png" alt="icon5">
+                <h3>小红书文案</h3>
+            </div>
+            <div class="card">
+                <img src="path/to/icon6.png" alt="icon6">
+                <h3>知乎</h3>
+            </div>
+            <div class="card">
+                <img src="path/to/icon7.png" alt="icon7">
+                <h3>微博</h3>
+            </div>
+            <div class="card">
+                <img src="path/to/icon8.png" alt="icon8">
+                <h3>公众号</h3>
+            </div>
+            <div class="card">
+                <img src="path/to/icon9.png" alt="icon9">
+                <h3>大众点评</h3>
+            </div>
+            <div class="card">
+                <img src="path/to/icon10.png" alt="icon10">
+                <h3>今日头条</h3>
+            </div>
+            <div class="card">
+                <img src="path/to/icon11.png" alt="icon11">
+                <h3>什么值得买</h3>
+            </div>
+            <div class="card">
+                <img src="path/to/icon12.png" alt="icon12">
+                <h3>美食探店</h3>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
